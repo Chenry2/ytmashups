@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YTMashups</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="top-nav">
+    <p>YTMashups</p>
+    <img id="yt-logo" src="https://developers.google.com/site-assets/logo-youtube-white.svg"/>
+  </div>
+  <div class="wrapper">
+
+    <span id="entertext">Please enter youtube playlist link:</span><br>
+    <input type="text" id="playlist-input" placeholder="Add Playlist..." />
+    <input type="button" value="Mashup" id="submit-playlist" />
+
+
+    <hr/>
+    <h2>Current Playlists</h2>
+    <ul id="playlists"></ul> <!-- Handled by `main.js` -->
+    <hr/>
+
+
+    <h2>Your Randomized Playlist</h2>
+    <div id="player"></div> <!-- Handled by `main.js` -->
+
+  </div>
+
+  <div id="the_scripts">
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script type="application/javascript" src="ytmashups/utils.js"></script>
+    <script type="application/javascript" src="ytmashups/youtube.js"></script>
+    <script type="application/javascript" src="ytmashups/main.js"></script>
+  </div>
+</body>
+</html>
