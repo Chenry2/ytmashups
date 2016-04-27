@@ -8,6 +8,10 @@ h2 {
   font-size: 1.55em;
 }
 
+ul {
+  list-style-type: none;
+}
+
 
 .top-nav{
   position: relative;
