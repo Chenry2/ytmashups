@@ -3,8 +3,8 @@ body {
   background-color: #FFFFFF;
   color: #878787;
 
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 h2 {
