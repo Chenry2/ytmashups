@@ -2,13 +2,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFFFFF;
   color: #878787;
+
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
   font-size: 1.55em;
 }
 
-ul {
+ul#playlists {
   list-style-type: none;
 }
 
