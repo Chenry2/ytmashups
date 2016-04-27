@@ -1,3 +1,6 @@
+/*global youtubeAccess */
+/*global jQuery */
+
 (function($) {
   $(document).ready(function() {
     console.log('File is running.');

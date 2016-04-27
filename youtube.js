@@ -1,3 +1,6 @@
+/*global $*/
+/*global url*/
+
 // API Key for Accessing Youtube (throw out before making this application live)
 var apiKey = 'AIzaSyCSB_uqednNkulQWQYCMikD2TH-XljThq0';
 
